@@ -271,3 +271,35 @@ elif page == "Classification":
     plt.xlabel("Predicted")
     plt.ylabel("Actual")
     st.pyplot(fig)            
+    # -------------------- Page 5: About --------------------
+elif page == "About":
+    st.title("📘 About This Project")
+
+    st.markdown("""
+    ### 💡 Overview
+    This application helps visualize, explore, and predict heart disease using machine learning algorithms. It includes data upload, EDA, model prediction, and performance evaluation tools.
+
+    ### 🧰 Technologies Used
+    - **Python**
+    - **Pandas**, **NumPy**
+    - **Scikit-learn**
+    - **Seaborn**, **Matplotlib**
+    - **Streamlit**
+
+    ### 📂 Data Source
+    Dataset used in this project was sourced from Kaggle 
+    ⚠️ This tool is for educational purposes and **not intended for medical diagnosis**.
+    """)
+    
+    st.title(" About The Devolpers")
+
+    st.markdown("""
+    ### 💡 
+    Aliyas   
+    Roll no (5121231)
+   linkdin: [Aliyas](https://www.linkedin.com/in/aliyasaly/)
+   
+    Hassan Saif Ullah
+    Roll no (5121231)
+    linkdin: [Hassan Saif Ullah](https://www.linkedin.com/in/hassan-saif-69b9671b0/)
+    """)
